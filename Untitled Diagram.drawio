@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-26T03:01:47.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="0SvoXSGbUQZHSpZk3xwv" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-26T03:14:16.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="79R3IyI_Dtr1LKExg_CJ" type="github">
   <diagram id="Sgv6cr8Wvo6JaJ9kn9vv" name="Page-1">
     <mxGraphModel dx="792" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -66,7 +66,7 @@
           <mxGeometry x="70" y="580" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8_GV6-y4q7LSH-abXdu7-19" value="Providers block" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="590" width="120" height="80" as="geometry" />
+          <mxGeometry x="335" y="590" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8_GV6-y4q7LSH-abXdu7-20" value="Resource Block" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="590" width="120" height="80" as="geometry" />
@@ -78,6 +78,52 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="710" as="sourcePoint" />
             <mxPoint x="130" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_GV6-y4q7LSH-abXdu7-23" value="- &lt;font color=&quot;#ff6666&quot;&gt;Heart of Terraform&lt;/font&gt;&lt;br&gt;- To install providers &amp;amp; use them&lt;br&gt;- Provider configs belong to Root Module" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310" y="730" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8_GV6-y4q7LSH-abXdu7-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#FF6666;exitX=0.441;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399.5" y="730" as="sourcePoint" />
+            <mxPoint x="399.53" y="661.02" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="399.53" y="701.02" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_GV6-y4q7LSH-abXdu7-25" value="&lt;font color=&quot;#ff6666&quot;&gt;- Describes one or more Infra objects&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="730" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8_GV6-y4q7LSH-abXdu7-26" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#FF6666;exitX=0.441;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.1598" y="-220" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="624.5" y="730" as="sourcePoint" />
+            <mxPoint x="624.53" y="661.02" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="624.53" y="701.02" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_GV6-y4q7LSH-abXdu7-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#FF6666;" edge="1" parent="1" source="8_GV6-y4q7LSH-abXdu7-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="560" as="sourcePoint" />
+            <mxPoint x="340" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_GV6-y4q7LSH-abXdu7-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#FF6666;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="8_GV6-y4q7LSH-abXdu7-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="590" as="sourcePoint" />
+            <mxPoint x="670" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8_GV6-y4q7LSH-abXdu7-29" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontColor=#FF6666;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8_GV6-y4q7LSH-abXdu7-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="630" as="sourcePoint" />
+            <mxPoint x="390" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
